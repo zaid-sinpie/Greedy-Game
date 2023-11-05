@@ -170,3 +170,31 @@ main {
 .hidden{
   display: none;
 }
+
+@media screen and (min-width: 375px) {
+  .player{
+    width: 50vw;
+    height: 100%;
+  }
+  .current{
+    width: auto;
+  }
+  .btn--new {
+    top: 1rem;
+  }
+  .btn--roll {
+    top: 39.3rem;
+  }
+  .btn--hold {
+    top: 60rem;
+  }
+  .name{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-height: 667px) {
+  main{
+    height: 100%;
+  }
+}
