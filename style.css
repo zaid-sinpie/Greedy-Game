@@ -170,3 +170,19 @@ main {
 .hidden{
   display: none;
 }
+
+@media only screen and (max-width: 760px) {
+    main {
+        height: 90vh;
+        width: 100vw;
+    }
+    .player {
+        max-width: 50vw;
+    }
+    .name {
+        font-size: 2rem;
+    }
+    .player {
+        padding: 9rem 3rem;
+    }
+}
