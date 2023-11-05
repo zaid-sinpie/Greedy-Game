@@ -130,13 +130,13 @@ main {
 }
 
 .btn--new {
-  top: 4rem;
+  top: 3%;
 }
 .btn--roll {
-  top: 39.3rem;
+  top: 40%;
 }
 .btn--hold {
-  top: 46.1rem;
+  top: 50%;
 }
 
 .btn:active {
@@ -173,7 +173,7 @@ main {
 
 @media only screen and (max-width: 760px) {
     main {
-        height: 90vh;
+        height: 100vh;
         width: 100vw;
     }
     .player {
@@ -181,6 +181,12 @@ main {
     }
     .name {
         font-size: 2rem;
+    }
+    .score {
+        font-size: 6rem;
+    }
+    .current {
+        width: 100%;
     }
     .player {
         padding: 9rem 3rem;
