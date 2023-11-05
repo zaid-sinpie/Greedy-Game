@@ -130,13 +130,13 @@ main {
 }
 
 .btn--new {
-  top: 4rem;
+  top: 3%;
 }
 .btn--roll {
-  top: 39.3rem;
+  top: 40%;
 }
 .btn--hold {
-  top: 46.1rem;
+  top: 50%;
 }
 
 .btn:active {
@@ -171,30 +171,24 @@ main {
   display: none;
 }
 
-@media screen and (min-width: 375px) {
-  .player{
-    width: 50vw;
-    height: 100%;
-  }
-  .current{
-    width: auto;
-  }
-  .btn--new {
-    top: 1rem;
-  }
-  .btn--roll {
-    top: 30rem;
-  }
-  .name{
-    font-size: 2rem;
-  }
-  .btn--hold{
-    top:55rem;
-  }
-}
-
-@media screen and (min-height: 667px) {
-  main{
-    height: 100%;
-  }
+@media only screen and (max-width: 760px) {
+    main {
+        height: 100vh;
+        width: 100vw;
+    }
+    .player {
+        max-width: 50vw;
+    }
+    .name {
+        font-size: 2rem;
+    }
+    .score {
+        font-size: 6rem;
+    }
+    .current {
+        width: 100%;
+    }
+    .player {
+        padding: 9rem 3rem;
+    }
 }
