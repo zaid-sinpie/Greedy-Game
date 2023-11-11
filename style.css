@@ -151,7 +151,7 @@ main {
 .dice {
   position: absolute;
   left: 50%;
-  top: 16.5rem;
+  top: 10.5rem;
   transform: translateX(-50%);
   height: 10rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
@@ -190,5 +190,8 @@ main {
     }
     .player {
         padding: 9rem 3rem;
+    }
+    .dice{
+      top: 16.5rem;
     }
 }
